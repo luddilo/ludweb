@@ -24,10 +24,9 @@ export default function Page() {
       <ol>
         {projects.map((project) => (
           <li className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100">
-            <ArrowIcon />
-            <p className="ml-2 h-7">
+            <p className="ml-2">
               <Link href={project.link}>
-                {project.name}: {project.desc}
+                <strong>{project.name}</strong>: {project.desc}
               </Link>
             </p>
           </li>

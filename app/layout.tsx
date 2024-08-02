@@ -62,10 +62,17 @@ export default function RootLayout({
           ? `url(${backgroundMobile.src})`
           : `url(${backgroundDesktop.src})`,
         backgroundSize: "cover",
+        overflowX: "hidden",
       }}
     >
-      <body className="antialiased max-w-xl mx-auto w-auto mt-8 mx-auto text-black bg-white/80 dark:text-white dark:bg-black/80">
-        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 lg:px-4">
+      <body
+        style={{
+          overflowX: "hidden",
+          position: "relative",
+        }}
+        className="antialiased max-w-xl mx-auto w-auto lg:mt-8 text-black bg-white/80 dark:text-white dark:bg-black/80"
+      >
+        <main className="flex-auto min-w-0 lg:mt-6 flex flex-col px-8 lg:px-4">
           <Navbar />
           {children}
           <Footer />

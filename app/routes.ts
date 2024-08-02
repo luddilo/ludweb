@@ -10,12 +10,9 @@ export const routes = {
   },
 
   "/temple-of-contact": {
-    name: "temple-of-contact",
+    name: "temple",
   },
   "/coding": {
-    name: "coding",
-  },
-  "/dj": {
-    name: "dj",
+    name: "code",
   },
 };

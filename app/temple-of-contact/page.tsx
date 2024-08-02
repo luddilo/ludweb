@@ -22,12 +22,14 @@ export default function Page() {
         >
           see more pictures
         </Link>
-        ) with a big living room that I have made into a dance-studio. I like to
-        have people around, so I typically host one or more contact dancers from
-        around the world (on beds in the dance space). We dance, cook, eat and
-        live together. You pay what you are comfortable with. If you are
-        interested in coming to visit, please reach out. I'm also on the lookout
-        for cat-sitters!
+        ) with a big living room that I have made into a dance-studio.
+      </p>
+      <p className="mb-8">
+        I like to have people around, so I typically host one or more contact
+        dancers from around the world (on beds in the dance space). We dance,
+        cook, eat and live together. You pay what you are comfortable with. If
+        you are interested in coming to visit, please reach out. I'm also on the
+        lookout for cat-sitters!
       </p>
     </section>
   );
