@@ -13,7 +13,7 @@ import backgroundDesktop from "./assets/bg-desktop.jpg";
 import backgroundMobile from "./assets/bg-mobile-2.jpg";
 import { useIsMobile } from "./hooks/useIsMobile";
 
-export const _metadata: Metadata = {
+const _metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
     default: "Ludvig",
