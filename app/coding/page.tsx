@@ -1,4 +1,3 @@
-import { BlogPosts } from "app/components/posts";
 import Link from "next/link";
 import { projects } from "./projects";
 import { ArrowIcon } from "../components/icons";
